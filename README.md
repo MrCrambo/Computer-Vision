@@ -1,4 +1,4 @@
-# Computer-Vision
+# Computer Vision
 Computer Vision projects using python and librarires as `matplotlib`, `opencv`, so don't forget to install them.
 
 ## Image resizing using Bilinear interpolation
