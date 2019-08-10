@@ -24,6 +24,7 @@ Convolution allows to change the image using different filters, and one of these
 Also there are a lot of other types of kernels for filtering like highpass kernel, lowpass kernel, laplacian kernel, etc.
 You can find more info about this kernels by clicking this [link](https://northstar-www.dartmouth.edu/doc/idl/html_6.2/Filtering_an_Imagehvr.html) and use all this kernels in code. Just pass the array of your kernel to the convolution function like below:
 ```python
+# highpass kernel
 krl = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
 
 conv_img = convolution(img, krl)
