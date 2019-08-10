@@ -19,9 +19,15 @@ You can find notebook with code and examples [here](https://github.com/MrCrambo/
 
 #### Decreasing image size using convolution and averaging
 
-Convolution allows to smooth the image in case you use simple kernel with ones.
-Also there is lot of other types of kernels like highpass kernel, lowpass kernel, laplacian kernel, etc.
-You can find more info about this kernels by this [link](https://northstar-www.dartmouth.edu/doc/idl/html_6.2/Filtering_an_Imagehvr.html) and use it in this code, it supports all type of kernels.
+Convolution allows to smooth the image in case you use kernel with ones.
+
+Also there are a lot of other types of kernels like highpass kernel, lowpass kernel, laplacian kernel, etc.
+You can find more info about this kernels by clicking this [link](https://northstar-www.dartmouth.edu/doc/idl/html_6.2/Filtering_an_Imagehvr.html) and use all this kernels in code, it supports all type of kernels. Just pass the array of your kernel to the function like below:
+```python
+krl = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
+
+conv_img = convolution(img, krl)
+```
 
 You can find notebook with code and examples [here](https://github.com/MrCrambo/Computer-Vision/blob/master/Image%20Resizing/ImageSizeDecreasing.ipynb).
 
