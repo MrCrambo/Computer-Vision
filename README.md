@@ -3,7 +3,7 @@ Computer Vision projects using python and librarires as `matplotlib`, `opencv`, 
 
 ## 1. Image resizing
 
-### 1.1 Bilinear interpolation for image size increasing
+### Bilinear interpolation for image size increasing
 
 Bilinear interpolation considers the closest 2 × 2 neighborhood of known pixel values surrounding the unknown pixel's computed location. 
 It then takes a weighted average of these 4 pixels to arrive at its final, interpolated value.
@@ -17,7 +17,7 @@ For edge pixels I used the most nearest pixel.
 
 You can find notebook with code and examples [here](https://github.com/MrCrambo/Computer-Vision/blob/master/Image%20Resizing/ImageBilinearResizing.ipynb).
 
-### 1.2 Decreasing image size using convolution and averaging
+### Decreasing image size using convolution and averaging
 
 Convolution allows to change the image using different filters, and one of these filters we used for smoothing (kernel with ones - averaging kernel).
 
