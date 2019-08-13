@@ -48,6 +48,6 @@ You can find notebook with code and examples [here](https://github.com/MrCrambo/
 
 Detecting objects using OpenCV library.
 
-Change the masks and it will be possible to use it for detecting another images, in this case we are detecting strawberry. And so masks are prepared for detecting strawberry features.
+Change the masks and it will be possible to use it for detecting another images. Find hsv color ranges if you want to detect other colors then red. In this case we are detecting red apple, and so masks are prepared for detecting red.
 
-![Image detection](https://github.com/MrCrambo/Computer-Vision/blob/master/Object%20Detection%20With%20OpenCV/detected.jpg)
+![Image detection](https://github.com/MrCrambo/Computer-Vision/blob/master/Object%20Detection%20With%20OpenCV/apple_detected.jpg)
