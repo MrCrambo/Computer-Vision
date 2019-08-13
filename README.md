@@ -44,3 +44,10 @@ conv_img = convolution(img, krl)
 
 You can find notebook with code and examples [here](https://github.com/MrCrambo/Computer-Vision/blob/master/Image%20Resizing/ImageSizeDecreasing.ipynb).
 
+## 2. Object detection
+
+Detecting objects using OpenCV library.
+
+Change the masks and it will be possible to use it for detecting another images, in this case we are detecting strawberry. And so masks are prepared for detecting strawberry features.
+
+![Image detection](https://github.com/MrCrambo/Computer-Vision/blob/master/Object%20Detection%20With%20OpenCV/detected.jpg)
